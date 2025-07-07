@@ -5,10 +5,6 @@ Tiny wordlist generator that combines two or three wordlists with a custom separ
 ```bash
 python swords.py --wlist1 list1.txt --wlist2 list2.txt --wlist3 list3.txt --separator1 "." --separator2 "-" 
 
-```
-
-
-```bash
 marco.rossi-2000
 marco.rossi-2001
 marco.rossi-2002
