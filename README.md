@@ -1,10 +1,10 @@
 # swords
-Tiny wordlist generator
-combine two or three wordlist with custom sepatator
+Tiny wordlist generator that combines two or three wordlists with a custom separator
 
 ## Usage
 ```bash
 python swords.py --wlist1 list1.txt --wlist2 list2.txt --wlist3 list3.txt --separator1 "." --separator2 "-" 
+
 marco.rossi-2000
 marco.rossi-2001
 marco.rossi-2002
@@ -77,6 +77,4 @@ valeria.verdi-2002
 valeria.verdi-2003
 valeria.verdi-2004
 valeria.verdi-2005
-
 ```
-
