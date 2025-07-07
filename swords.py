@@ -38,7 +38,10 @@ def main():
         for line_1 in wlist1_lines:
             for line_2 in wlist2_lines:
                     for line_3 in wlist3_lines:
-                        print(f"{line_1.strip("\n")}{separator1}{line_2.strip("\n")}{separator2}{line_3.strip("\n")}")
+                        line_1 = line_1.strip("\n")
+                        line_2 = line_2.strip("\n")
+                        line_3 = line_3.strip("\n")
+                        print(f"{line_1}{separator1}{line_2}{separator2}{line_3}")
                
         f1.close()
         f2.close()
